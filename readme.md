@@ -9,7 +9,7 @@
 - Tampilan health bar permanen
 - Respawn dan restart otomatis setelah mati
 - Marker finish dan HUD terintegrasi
-- **Konfigurasi tombol trigger (default: F5)**
+- **Konfigurasi tombol trigger (default: tombol 1)**
 
 ---
 
@@ -85,7 +85,7 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955
 
 ### 🎮 Cara Menggunakan
 
-- Tekan tombol trigger (default `F5`) untuk membuka menu Qohwah.
+- Tekan tombol trigger (default `D1`) untuk membuka menu Qohwah.
 - Pilih race dari daftar.
 - Kamu akan langsung teleport ke titik start dengan kendaraan.
 - HUD akan menampilkan progress, countdown, dan marker finish otomatis.
@@ -108,7 +108,7 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955
 - Always-on health bar display
 - Automatic respawn and race restart after death
 - Finish marker & HUD integration
-- **Trigger key customization (default: F5)**
+- **Trigger key customization (default: 1)**
 
 ---
 
@@ -183,7 +183,7 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955
 
 ### 🎮 How to Use
 
-- Press trigger key (default `F5`) to open Qohwah menu.
+- Press trigger key (default `D1`) to open Qohwah menu.
 - Choose a race and you’ll be teleported with a vehicle.
 - Countdown, progress, and finish marker will appear automatically.
 
