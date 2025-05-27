@@ -2,13 +2,16 @@
 
 ## 🇮🇩 Bahasa Indonesia
 
-### Fitur
+### ✨ Fitur
 
-- Manual race input via .ini file
-- GTA-style countdown, win tracking, auto waypoint
-- Permanent health bar display
-- Automatic respawn and race restart after death
-- Finish marker and HUD elements integrated
+- Input race manual via file `.ini`
+- Countdown khas GTA, pelacakan kemenangan, dan auto-waypoint
+- Tampilan health bar permanen
+- Respawn dan restart otomatis setelah mati
+- Marker finish dan HUD terintegrasi
+- **Konfigurasi tombol trigger (default: F5)**
+
+---
 
 ### 📌 Persyaratan
 
@@ -19,48 +22,95 @@
 - [.NET Framework 4.8 atau lebih tinggi](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 - [Visual C++ Redistributable 2015–2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
+---
+
 ### 📁 Cara Pemasangan
 
 1. Ekstrak semua file dari folder mod ini.
-2. Salin semua file dan folder ke direktori game GTA V.  
+2. Salin semua file dan folder ke direktori game GTA V:  
    `GTA V/`
-3. Pastikan `LemonUI.SHVDN3.dll` dan `LemonUI.SHVDN3.xml` juga ada di dalam folder `scripts/`.
+3. Pastikan `LemonUI.SHVDN3.dll` dan `LemonUI.SHVDN3.xml` juga ada di folder `scripts/`.
 4. Jalankan GTA V seperti biasa.
+
+---
+
+### ⚙️ Konfigurasi
+
+Kamu dapat mengatur tombol untuk membuka menu mod dan perilaku pengurangan poin di file:
+`GTA V/scripts/QohwahConfig.ini`
+
+Isi default:
+TriggerKey=D1
+AutoDecreaseWinsOnDeath=true
+ManualDecreaseKey=D2
+
+Keterangan:
+
+- TriggerKey: tombol untuk membuka menu Qohwah (bisa F1–F12, A–Z, dll.) (Default : Tombol Angka 1)
+
+- ManualDecreaseKey: tombol untuk mengurangi 1 poin wins secara manual (default: Tombol Angka 2)
+
+- AutoDecreaseWinsOnDeath:
+
+- - true: otomatis kurangi wins saat karakter mati
+
+- - false: kamu bisa tekan ManualWinLossKey untuk kurangi sendiri
+
+Ganti tombol default dengan tombol lain sesuai kebutuhan, misalnya:
+
+| Tombol      | Nilai       |
+| ----------- | ----------- |
+| Angka 1     | D1          |
+| Angka 2     | D2          |
+| Numpad 1    | NumPad1     |
+| Ctrl kiri   | LControlKey |
+| Shift kanan | RShiftKey   |
+| Spasi       | Space       |
+
+---
 
 ### 📄 Menambahkan Race Secara Manual
 
-Race **tidak bisa ditambahkan dari dalam game**, kamu harus mengedit file:
+Races **tidak bisa ditambahkan dari dalam game**.  
+Edit file ini:
 `GTA V/scripts/QohwahRaces.ini`
 
 Format:
-[Nama Race]|[Start.X]|[Start.Y]|[Start.Z]|[StartYaw]|[Finish.X]|[Finish.Y]|[Finish.Z]|[FinishYaw]
+[RaceName]|[StartX]|[StartY]|[StartZ]|[StartYaw]|[FinishX]|[FinishY]|[FinishZ]|[FinishYaw]
 
 Contoh:
-Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.78955|797.910095|172.205719
+Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955|797.91009|172.20
+
+---
 
 ### 🎮 Cara Menggunakan
 
-- Tekan `F5` untuk membuka menu Qohwah.
-- Pilih race dari daftar dan kamu akan langsung teleport ke start.
-- Progress, countdown, dan marker akan muncul otomatis.
+- Tekan tombol trigger (default `F5`) untuk membuka menu Qohwah.
+- Pilih race dari daftar.
+- Kamu akan langsung teleport ke titik start dengan kendaraan.
+- HUD akan menampilkan progress, countdown, dan marker finish otomatis.
+
+---
 
 ### ⚠️ Catatan
 
 - Tidak kompatibel dengan GTA Online.
-- Karakter akan otomatis respawn dan restart race setelah mati.
+- Karakter otomatis respawn dan restart race saat mati.
 
 ---
 
 ## 🇬🇧 English
 
-### Features
+### ✨ Features
 
-- Manual race input via .ini file
-- GTA-style countdown, win tracking, auto waypoint
-- Permanent health bar display
+- Manual race input via `.ini` file
+- GTA-style countdown, win tracking, and auto-waypoint
+- Always-on health bar display
 - Automatic respawn and race restart after death
-- Finish marker and HUD elements integrated
--
+- Finish marker & HUD integration
+- **Trigger key customization (default: F5)**
+
+---
 
 ### 📌 Requirements
 
@@ -71,42 +121,85 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.
 - [.NET Framework 4.8 or higher](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 - [Visual C++ Redistributable 2015–2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
+---
+
 ### 📁 Installation
 
-1. Extract all files from this mod folder.
-2. Copy all files and folders to game directory:  
+1. Extract all mod files.
+2. Copy everything to your GTA V root folder:  
    `GTA V/`
-3. Ensure `LemonUI.SHVDN3.dll` and `LemonUI.SHVDN3.xml` are also inside the `scripts/` folder.
-4. Launch GTA V as usual.
+3. Ensure `LemonUI.SHVDN3.dll` and `LemonUI.SHVDN3.xml` are inside the `scripts/` folder.
+4. Launch GTA V.
+
+---
+
+### ⚙️ Custom Configuration
+
+You can configure the trigger key and win loss key in:
+`GTA V/scripts/QohwahConfig.ini`
+
+Default content:
+[General]
+TriggerKey=D1
+AutoDecreaseWinsOnDeath=true
+ManualDecreaseKey=D2
+
+Explanation:
+
+- TriggerKey: key to open Qohwah menu (can be F1–F12, A–Z, etc.)
+
+- ManualDecreaseKey: key to manually decrease wins by 1 point
+
+- AutoDecreaseWinsOnDeath:
+
+- - true: automatically decrease wins when player dies
+
+- - false: manually decrease wins by pressing ManualWinLossKey
+
+| Key         | Value       |
+| ----------- | ----------- |
+| 1           | D1          |
+| 2           | D2          |
+| Numpad 1    | NumPad1     |
+| Left Ctrl   | LControlKey |
+| Right Shift | RShiftKey   |
+| Space       | Space       |
+
+---
 
 ### 📄 Adding Races Manually
 
-Races **must be added manually** in:  
+Races **cannot be added from within the game**.  
+Edit this file:
 `GTA V/scripts/QohwahRaces.ini`
 
 Format:
-[Race Name]|[Start.X]|[Start.Y]|[Start.Z]|[StartYaw]|[Finish.X]|[Finish.Y]|[Finish.Z]|[FinishYaw]
+[RaceName]|[StartX]|[StartY]|[StartZ]|[StartYaw]|[FinishX]|[FinishY]|[FinishZ]|[FinishYaw]
 
 Example:
-Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.78955|797.910095|172.205719
+Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955|797.91009|172.20
+
+---
 
 ### 🎮 How to Use
 
-- Press `F5` to open Qohwah menu.
+- Press trigger key (default `F5`) to open Qohwah menu.
 - Choose a race and you’ll be teleported with a vehicle.
-- Progress bar, countdown, and finish marker are displayed automatically.
+- Countdown, progress, and finish marker will appear automatically.
+
+---
 
 ### ⚠️ Notes
 
 - Not compatible with GTA Online.
-- You will auto-respawn and restart the race after death.
+- Player will auto-respawn and restart race after death.
 
 ---
 
-**Author**: Qohwah - Izzi Digital
-💻 [github.com/izzi-digital](https://github.com/izzi-digital)
-🎵 [Tiktok](https://www.tiktok.com/@qohwah_id)
+**Author**: Qohwah - Izzi Digital  
+💻 [github.com/izzi-digital](https://github.com/izzi-digital)  
+🎵 [Tiktok](https://www.tiktok.com/@qohwah_id)  
 🎞️ [Youtube](https://www.youtube.com/@qohwah-id)
 
-- [🍵 Ko-fi](https://ko-fi.com/izzidigi)
-- [💜 SociaBuzz](https://sociabuzz.com/qohwah)
+- ☕ [Ko-fi](https://ko-fi.com/izzidigi)
+- 💜 [SociaBuzz](https://sociabuzz.com/qohwah)
