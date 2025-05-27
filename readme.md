@@ -9,6 +9,7 @@
 - [ScriptHookVDotNet v3](https://github.com/crosire/scripthookvdotnet/releases)
 - [LemonUI untuk SHVDN3](https://github.com/LemonUIbyLemon/LemonUI/releases)
 - [.NET Framework 4.8 atau lebih tinggi](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+- [Visual C++ Redistributable 2015–2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ### 📁 Cara Pemasangan
 
@@ -51,6 +52,7 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.
 - [ScriptHookVDotNet v3](https://github.com/crosire/scripthookvdotnet/releases)
 - [LemonUI for SHVDN3](https://github.com/LemonUIbyLemon/LemonUI/releases)
 - [.NET Framework 4.8 or higher](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+- [Visual C++ Redistributable 2015–2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ### 📁 Installation
 
