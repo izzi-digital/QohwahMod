@@ -1,6 +1,13 @@
 # QOHWAH MOD for GTA V
 
 ## 🇮🇩 Bahasa Indonesia
+### Fitur
+
+- Manual race input via .ini file
+- GTA-style countdown, win tracking, auto waypoint
+- Permanent health bar display
+- Automatic respawn and race restart after death
+- Finish marker and HUD elements integrated
 
 ### 📌 Persyaratan
 
@@ -44,6 +51,14 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.
 
 ## 🇬🇧 English
 
+### Features
+
+- Manual race input via .ini file
+- GTA-style countdown, win tracking, auto waypoint
+- Permanent health bar display
+- Automatic respawn and race restart after death
+- Finish marker and HUD elements integrated
+- 
 ### 📌 Requirements
 
 - GTA V PC version
