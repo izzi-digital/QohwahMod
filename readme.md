@@ -13,7 +13,7 @@
 ### 📁 Cara Pemasangan
 
 1. Ekstrak semua file dari folder mod ini.
-2. Salin `Qohwah.dll` ke folder:  
+2. Salin semua file ke folder:  
    `GTA V/scripts/`
 3. Pastikan `LemonUI.SHVDN3.dll` dan `LemonUI.SHVDN3.xml` juga ada di dalam folder `scripts/`.
 4. Jalankan GTA V seperti biasa.
@@ -55,7 +55,7 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.2773113|501.79837|5603.
 ### 📁 Installation
 
 1. Extract all files from this mod folder.
-2. Copy `Qohwah.dll` to:  
+2. Copy all files to:  
    `GTA V/scripts/`
 3. Ensure `LemonUI.SHVDN3.dll` and `LemonUI.SHVDN3.xml` are also inside the `scripts/` folder.
 4. Launch GTA V as usual.
