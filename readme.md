@@ -5,11 +5,11 @@
 ### ✨ Fitur
 
 - Input race manual via file `.ini`
-- Countdown khas GTA, pelacakan kemenangan, dan auto-waypoint
+- Countdown khas GTA, Wins Point, dan auto-waypoint
 - Tampilan health bar permanen
-- Respawn dan restart otomatis setelah mati
+- Respawn dan restart otomatis atau manual setelah mati
 - Marker finish dan HUD terintegrasi
-- **Konfigurasi tombol trigger (default: tombol 1)**
+- **Konfigurasi tombol**
 
 ---
 
@@ -36,13 +36,21 @@
 
 ### ⚙️ Konfigurasi
 
-Kamu dapat mengatur tombol untuk membuka menu mod dan perilaku pengurangan poin di file:
+Beberapa Konfigurasi dapat diatur dari dalam game.  
+Kamu dapat mengatur konfigurasi tombol di file:
 `GTA V/scripts/QohwahConfig.ini`
 
 Isi default:
+Wins=10
+TargetWins=20
 TriggerKey=D1
-AutoDecreaseWinsOnDeath=true
 ManualDecreaseKey=D2
+ManualIncreaseKey=D3
+ManualSetTargetWinsKey=D4
+BackToStart=D5
+AutoDecreaseWinsOnDeath=false
+AutoRestartRaceOnDeath=false
+SpawnWithVehicle=false
 
 Keterangan:
 
@@ -50,11 +58,25 @@ Keterangan:
 
 - ManualDecreaseKey: tombol untuk mengurangi 1 poin wins secara manual (default: Tombol Angka 2)
 
+- ManualIncreaseKey: tombol untuk menambahkan 1 poin wins secara manual (default: Tombol Angka 3)
+
+- ManualSetTargetWinsKey: tombol untuk mengatur target wins secara manual (default: Tombol Angka 4)
+
+- BackToStart: tombol untuk kembali ke titik start (default: Tombol Angka 5)
+
 - AutoDecreaseWinsOnDeath:
 
 - - true: otomatis kurangi wins saat karakter mati
 
 - - false: kamu bisa tekan ManualWinLossKey untuk kurangi sendiri
+
+- AutoRestartRaceOnDeath:
+
+- - true: otomatis restart race saat karakter mati
+
+- - false: kamu bisa tekan BackToStart untuk restart sendiri
+
+- SpawnWithVehicle: true untuk spawn dengan kendaraan, false untuk spawn tanpa kendaraan
 
 Ganti tombol default dengan tombol lain sesuai kebutuhan, misalnya:
 
@@ -96,103 +118,6 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955
 
 - Tidak kompatibel dengan GTA Online.
 - Karakter otomatis respawn dan restart race saat mati.
-
----
-
-## 🇬🇧 English
-
-### ✨ Features
-
-- Manual race input via `.ini` file
-- GTA-style countdown, win tracking, and auto-waypoint
-- Always-on health bar display
-- Automatic respawn and race restart after death
-- Finish marker & HUD integration
-- **Trigger key customization (default: 1)**
-
----
-
-### 📌 Requirements
-
-- GTA V PC version
-- [ScriptHookV](https://www.dev-c.com/gtav/scripthookv/)
-- [ScriptHookVDotNet v3](https://github.com/crosire/scripthookvdotnet/releases)
-- [LemonUI for SHVDN3](https://github.com/LemonUIbyLemon/LemonUI/releases)
-- [.NET Framework 4.8 or higher](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
-- [Visual C++ Redistributable 2015–2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-
----
-
-### 📁 Installation
-
-1. Extract all mod files.
-2. Copy everything to your GTA V root folder:  
-   `GTA V/`
-3. Ensure `LemonUI.SHVDN3.dll` and `LemonUI.SHVDN3.xml` are inside the `scripts/` folder.
-4. Launch GTA V.
-
----
-
-### ⚙️ Custom Configuration
-
-You can configure the trigger key and win loss key in:
-`GTA V/scripts/QohwahConfig.ini`
-
-Default content:
-[General]
-TriggerKey=D1
-AutoDecreaseWinsOnDeath=true
-ManualDecreaseKey=D2
-
-Explanation:
-
-- TriggerKey: key to open Qohwah menu (can be F1–F12, A–Z, etc.)
-
-- ManualDecreaseKey: key to manually decrease wins by 1 point
-
-- AutoDecreaseWinsOnDeath:
-
-- - true: automatically decrease wins when player dies
-
-- - false: manually decrease wins by pressing ManualWinLossKey
-
-| Key         | Value       |
-| ----------- | ----------- |
-| 1           | D1          |
-| 2           | D2          |
-| Numpad 1    | NumPad1     |
-| Left Ctrl   | LControlKey |
-| Right Shift | RShiftKey   |
-| Space       | Space       |
-
----
-
-### 📄 Adding Races Manually
-
-Races **cannot be added from within the game**.  
-Edit this file:
-`GTA V/scripts/QohwahRaces.ini`
-
-Format:
-[RaceName]|[StartX]|[StartY]|[StartZ]|[StartYaw]|[FinishX]|[FinishY]|[FinishZ]|[FinishYaw]
-
-Example:
-Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955|797.91009|172.20
-
----
-
-### 🎮 How to Use
-
-- Press trigger key (default `D1`) to open Qohwah menu.
-- Choose a race and you’ll be teleported with a vehicle.
-- Countdown, progress, and finish marker will appear automatically.
-
----
-
-### ⚠️ Notes
-
-- Not compatible with GTA Online.
-- Player will auto-respawn and restart race after death.
 
 ---
 
