@@ -37,20 +37,20 @@
 ### ⚙️ Konfigurasi
 
 Beberapa Konfigurasi dapat diatur dari dalam game.  
-Kamu dapat mengatur konfigurasi tombol di file:
+Kamu juga dapat mengatur konfigurasi di file:
 `GTA V/scripts/QohwahConfig.ini`
 
 Isi default:
-Wins=10
-TargetWins=20
-TriggerKey=D1
-ManualDecreaseKey=D2
-ManualIncreaseKey=D3
-ManualSetTargetWinsKey=D4
-BackToStart=D5
-AutoDecreaseWinsOnDeath=false
-AutoRestartRaceOnDeath=false
-SpawnWithVehicle=false
+- Wins=10
+- TargetWins=20
+- TriggerKey=D1
+- ManualDecreaseKey=D2
+- ManualIncreaseKey=D3
+- ManualSetTargetWinsKey=D4
+- BackToStart=D5
+- AutoDecreaseWinsOnDeath=false
+- AutoRestartRaceOnDeath=false
+- SpawnWithVehicle=false
 
 Keterangan:
 
@@ -98,10 +98,10 @@ Edit file ini:
 `GTA V/scripts/QohwahRaces.ini`
 
 Format:
-[RaceName]|[StartX]|[StartY]|[StartZ]|[StartYaw]|[FinishX]|[FinishY]|[FinishZ]|[FinishYaw]
+- [RaceName]|[StartX]|[StartY]|[StartZ]|[StartYaw]|[FinishX]|[FinishY]|[FinishZ]|[FinishYaw]
 
 Contoh:
-Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955|797.91009|172.20
+- Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955|797.91009|172.20
 
 ---
 
@@ -122,9 +122,9 @@ Airport To Mountain|-1034.59998|-2733.6001|13.3990097|29.27|501.79837|5603.78955
 ---
 
 **Author**: Qohwah - Izzi Digital  
-💻 [github.com/izzi-digital](https://github.com/izzi-digital)  
-🎵 [Tiktok](https://www.tiktok.com/@qohwah_id)  
-🎞️ [Youtube](https://www.youtube.com/@qohwah-id)
+- 💻 [github.com/izzi-digital](https://github.com/izzi-digital)  
+- 🎵 [Tiktok](https://www.tiktok.com/@qohwah_id)  
+- 🎞️ [Youtube](https://www.youtube.com/@qohwah-id)
 
 - ☕ [Ko-fi](https://ko-fi.com/izzidigi)
 - 💜 [SociaBuzz](https://sociabuzz.com/qohwah)
