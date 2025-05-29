@@ -1,4 +1,4 @@
-# QOHWAH MOD for GTA V
+# QOHWAH MOD GTA V untuk Live Stream Interaktif
 
 ## 🇮🇩 Bahasa Indonesia
 
